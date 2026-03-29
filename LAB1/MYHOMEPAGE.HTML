@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>CHISVETO's Portfolio</title>
+    <style>
+        /* my base styles with different shades of blue */
+        body {
+            font-family: Arial, sans-serif;
+            
+            background-color: #f0f8ff; /* Lightest shade for page background */
+            color: #1e3a8a;          /* Deep Blue for main text */
+            display: flex;/*centers the cube */
+            justify-content: center;/*lowers cube to tthe center*/
+            align-items: center;/*shortens the centerd cube*/
+            min-height: 100vh;       /* Centers the content on the screen from the upper mid*/
+        }
+
+        .hero-container {
+            background-color: #ffffff; /* White card inside light blue page */
+            width: 100%;
+            max-width: 600px;         /* Limits width on large screens */
+            padding: 40px;
+            text-align: center;       /* Centers all elements inside the card */
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(30, 58, 138, 0.1); /* Subtle shadow */
+            border: 2px solid #60a5fa; /* Blue border like your pen drawing */
+        }
+
+        /* 1. Name and Tagline */
+        h1.name {
+            font-size: 2.5rem;
+            color: #1d4ed8;          /* Medium-dark Blue */
+           
+        }
+        /* 2. Professional photo or avatar container */
+        .photo-frame {
+            width: 150px;
+            height: 150px;
+            border: 3px solid #60a5fa; /* Blue frame */
+            border-radius: 50%;       /* Makes the frame round */
+            overflow: hidden;         /* Clips the image to the round frame */
+            margin: 0 auto 25px auto; /* Centers and adds spacing below */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #e0f2fe; /* Very light blue placeholder */
+        }
+
+        /* The actual photo inside the frame */
+        .profile-photo {
+            width: 100%;
+            height: 20%;
+            object-fit: cover; /* Ensures the photo is resized well, not stretched */
+        }
+
+        /* If no image is found, show this simple avatar placeholder text */
+        .photo-frame:empty::before {
+            content: '(Photo Placeholder)';
+            color: #93c5fd;
+            font-size: 0.8rem;
+        }
+
+        /* for the introduction */
+        .introduction {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: black;          /* Slate/grey-blue for easier reading */
+        }
+
+        /* for the  Call-to-action button */
+        .cta-button {
+            display: inline-block;
+            background-color: #2563eb; /* Strong Blue for the button */
+            color: white;
+            text-decoration: none;
+            padding: 12px 28px;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1rem;
+            transition: background-color 0.2s; /* Smooth color change on hover */
+        }
+
+        /* Hover effect for interactivity */
+        .cta-button:hover {
+            background-color: #1d4ed8; /* Darkens on hover */
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="hero-container">
+        <h1 class="name">CHISVETO KESY W</h1>
+
+        <div class="photo-frame">
+            <img src="myimage.png"
+            alt="CHISVETO's PROFILE PHOTO">
+            </div>
+
+        <div class="introduction">
+           <strong> My project introduction.</strong><br>
+            -I am an HIT student doing ISA.I'd like to specialize in building responsive and user-friendly websites using modern web technologies,thriving on solving modern challenges with innovative technology.In this project i am building my extraordinary portfolio to push the boundaries of web technologies
+        </div>
+
+        <a href="MYBIO.html">
+            <button class="your-button-class">
+            <strong>Click to view my work</strong></button>
+        </a>
+    </div>
+
+</body>
+</html>

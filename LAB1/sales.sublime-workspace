@@ -1,0 +1,205 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"a",
+				"alt"
+			],
+			[
+				"s",
+				"span"
+			],
+			[
+				"al",
+				"alt"
+			],
+			[
+				"h",
+				"h1"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/USER/Documents/2026/Web technologyz/LAB1/contacts.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/LAB1/MYBIO.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/LAB1/MYHOMEPAGE.HTML",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/project.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/webassiignment1.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/about.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/home.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/aboutt.hml.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/contact.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/tryn.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/Likes.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/calc2.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/agecheck.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/calc.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/colorful calculator.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/demo.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/circle.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/kite.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/triangle.html",
+		"/C/Users/USER/Documents/2026/Web technologyz/My stuff-html/calculator.html"
+	],
+	"find":
+	{
+		"height": 35.2
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.2
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"pinned_build_system": "",
+	"project": "sales.sublime-project",
+	"replace":
+	{
+		"height": 67.2
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

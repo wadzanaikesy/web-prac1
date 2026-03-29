@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f8fafc;
+            color: #1e3a8a;
+            display: flex;
+            justify-content: center;
+            padding: 50px 20px;
+        }
+
+        .contact-container {
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            width: 100%;
+            max-width: 500px;
+            border-top: 5px solid #3b82f6;
+        }
+
+        h2 { text-align: center; margin-bottom: 30px; }
+
+        /* Form Layout */
+        .form-group { margin-bottom: 20px; }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #334155;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            box-sizing: border-box; /* Ensures padding doesn't break width */
+        }
+
+        /* HTML5 Validation Visual Feedback */
+        input:focus:invalid { border-color: #ef4444; }
+        input:focus:valid { border-color: #22c55e; }
+
+        button {
+            width: 100%;
+            background-color: #2563eb;
+            color: white;
+            padding: 14px;
+            border: none;
+            border-radius: 6px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover { background-color: #1d4ed8; }
+
+        /* Social Links Section */
+        .social-links {
+            margin-top: 30px;
+            text-align: center;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 20px;
+        }
+
+        .social-links a {
+            color: #2563eb;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+<div class="contact-container">
+    <h2>Get In Touch</h2>
+    
+    <form action="#">
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="name@example.com" required>
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="How can I help you?" required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+    </form>
+
+    <div class="social-links">
+        <p>Or find me on:</p>
+        <a href="https://linkedin.com">LinkedIn</a> | 
+        <a href="https://github.com">GitHub</a> | 
+        <a href="mailto:kesy@gmail.com">Email Me</a>
+    </div>
+</div>
+
+</body>
+</html>
